@@ -1,0 +1,11 @@
+{
+    "title": "CV",
+    "like": {
+        "like-button": "Lajk",
+        "description": "Zostaw lajka!",
+        "like-accept": "Potwierdzać",
+        "like-cancel": "Anulować",
+        "like-name": "Twoje imię",
+        "like-warning": "Już ci się spodobało!"
+    }
+}

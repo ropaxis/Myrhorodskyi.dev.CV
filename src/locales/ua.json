@@ -1,0 +1,11 @@
+{
+    "title": "Резюме",
+    "like": {
+        "like-button": "Сподобалось",
+        "description": "Лиши вподобайку!",
+        "like-accept": "Підтвердити",
+        "like-cancel": "Відміна",
+        "like-name": "Ваше ім'я",
+        "like-warning": "Ви вже поставили лайк!"
+    }
+}

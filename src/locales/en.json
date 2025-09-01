@@ -1,0 +1,11 @@
+{
+    "title": "CV",
+    "like": {
+        "like-button": "Like",
+        "description": "Leave a like!",
+        "like-accept": "Submit",
+        "like-cancel": "Cancel",
+        "like-name": "Your name",
+        "like-warning": "You have already liked this!"
+    }
+}

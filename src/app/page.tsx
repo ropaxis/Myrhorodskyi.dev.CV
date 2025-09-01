@@ -1,34 +1,27 @@
 "use client";
-import { useState, useEffect } from "react";
+import Like from '@/src/app/like';
+import en from "@/src/locales/en.json";
+import pl from "@/src/locales/pl.json";
+import ua from "@/src/locales/ua.json";
+import LanguageSwitcher from './LanguageSwitcher';
+import { useState, useEffect } from 'react'
+
+const language = { en, pl, ua };
 
 export default function HomePage() {
-  const [likes, setLikes] = useState<any>(null);
+  const [lang, setLang] = useState<"en" | "pl" | "ua">("en");
+  const text = language[lang];
 
-  useEffect(() => {
-    fetch("/api/likes")
-      .then(res => {
-        console.log("🚀 ~ HomePage ~ res:", res)
-        // setLikes(res.likes)
-      })
-     
-  }, []);
-
-  async function addLike() {
-    const res = await fetch("/api/likes", { method: "POST" });
-    const data = await res.json();
-    setLikes(JSON.stringify(data));
-  }
-
+  const changeLang = (lng: "en" | "pl" | "ua") => {
+    setLang(lng);
+    localStorage.setItem("lang", lng);
+  };
+  
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <h1 className="text-2xl font-bold">Моє резюме</h1>
-      <p className="mt-4">❤️ {likes ?? "…"}</p>
-      <button
-        onClick={addLike}
-        className="mt-2 px-4 py-2 bg-pink-500 text-white rounded-lg"
-      >
-        Лайк
-      </button>
+    <div className="">
+      <h1 className="">{text.title}</h1>
+      <Like text={text.like}/> 
+      <LanguageSwitcher lang={lang} onChange={changeLang} />
     </div>
   );
 }
