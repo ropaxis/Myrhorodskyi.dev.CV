@@ -1,6 +1,8 @@
 import * as admin from "firebase-admin";
 
 if (!admin.apps.length) {
+  console.log('start firebase');
+  
   try {
     const serviceAccountString = process.env.FIREBASE_SERVICE_ACCOUNT;
     if (!serviceAccountString) {
