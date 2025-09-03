@@ -16,11 +16,17 @@ export default function HomePage() {
     setLang(lng);
     localStorage.setItem("lang", lng);
   };
-  
+
   return (
-    <div className="">
-      <h1 className="">{text.title}</h1>
-      <Like text={text.like}/> 
+    <div className=" container">
+      <div>
+        <h1 className="">{text.name}</h1>
+        <h2 className="">{text.title}</h2>
+      </div>
+      <div className='avatar__container'>
+        <img src="/images/Myrhorodskyi.jpg" alt="Roman Myrhorodskyi photo" className='avatar__image'></img>
+      </div>
+      <Like text={text.like} />
       <LanguageSwitcher lang={lang} onChange={changeLang} />
     </div>
   );

@@ -4,14 +4,14 @@ import { useState, FormEvent, useEffect } from "react";
 import { useLikes } from "./useLikes";
 
 interface LikeProps {
-  text: {
-    'like-button': string;
-    'description': string;
-    'like-accept': string;
-    'like-cancel': string;
-    'like-name': string,
-    'like-warning': string
-  };
+    text: {
+        'like-button': string;
+        'description': string;
+        'like-accept': string;
+        'like-cancel': string;
+        'like-name': string,
+        'like-warning': string
+    };
 }
 
 export default function Like({ text }: LikeProps) {
@@ -23,13 +23,13 @@ export default function Like({ text }: LikeProps) {
         if (showModal && liked) {
             const timer = setTimeout(() => {
                 setShowModal(false);
-            }, 3000); 
+            }, 3000);
 
             return () => {
                 clearTimeout(timer);
             };
         }
-    }, [showModal, liked]); 
+    }, [showModal, liked]);
 
     function onOpenModal() {
         setShowModal(true);
@@ -56,14 +56,11 @@ export default function Like({ text }: LikeProps) {
     }
 
     return (
-        <div>
+        <div >
             <button
                 onClick={onOpenModal}
-                style={{backgroundColor: liked ? 'gray' : 'green'}}
-            >
-                {text['like-button'] + " " + (likes?.length ?? '')}
-            </button>
-
+                className='heart'></button> 
+            <p>Likes: {likes.length}</p>
             {showModal && (
                 <div className="">
                     <div className="">
