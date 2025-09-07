@@ -1,21 +1,19 @@
-type Props = {
-    lang: "en" | "pl" | "ua";
-    onChange: (lang: "en" | "pl" | "ua") => void;
-};
+import { useLang } from "@/src/context/LangContext";
 
-export default function LanguageSwitcher({ lang, onChange }: Props) {
+
+export default function LanguageSwitcher() {
+    const { changeLang, languages } = useLang();
+    console.log("🚀 ~ LanguageSwitcher ~ languages:", useLang())
+
+
     return (
-        <div>
-            <ul>
-                <li id="en" onClick={() => onChange("en")}>
-                    <p>En</p>
-                </li>
-                <li id="pl" onClick={() => onChange("pl")}>
-                    <p>Pl</p>
-                </li>
-                <li id="ua" onClick={() => onChange("ua")}>
-                    <p>Ua</p>
-                </li>
+        <div className="lang-switcher">
+            <ul className="lang-switcher__list">
+                {languages?.map((lang) => (
+                    <li key={lang} onClick={() => changeLang(lang)}>
+                        <p>{lang.toUpperCase()}</p>
+                    </li>)
+                )}
             </ul>
         </div>
     )

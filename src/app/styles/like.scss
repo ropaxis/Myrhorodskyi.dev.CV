@@ -1,48 +1,30 @@
-.heart {
-    position: relative;
-    width: 100px;
-    height: 100px;
-    background-color: red;
-    transform: rotate(-45deg);
-    margin: 50px auto;
+.like {
+  display: flex;
+  align-items: center;
+  &__button {
+    background: none;
     border: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    color: inherit;
     cursor: pointer;
-
-    &::before,
-    &::after {
-        content: "";
-        position: absolute;
-        width: 100px;
-        height: 100px;
-        background-color: red;
-        border-radius: 50%;
-    }
-
-    &::before {
-        top: -50px;
-        left: 0;
-    }
-
-    &::after {
-        left: 50px;
-        top: 0;
-    }
+    outline: none;
+    max-width: 50px;    
 
     &:hover {
-        animation: pulse 1s infinite;
-    }
+      animation: pulse 0.7s infinite;     }
+  }
 }
 
 @keyframes pulse {
-    0% {
-        transform: rotate(-45deg) scale(1);
-    }
-
-    50% {
-        transform: rotate(-45deg) scale(1.2);
-    }
-
-    100% {
-        transform: rotate(-45deg) scale(1);
-    }
+  0% {
+    transform: rotate(-1deg) scale(1);
+  }
+  50% {
+    transform: rotate(1deg) scale(1.11);
+  }
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
 }

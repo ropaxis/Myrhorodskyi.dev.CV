@@ -1,7 +1,9 @@
 @use './mixins' as *;
 @use './page.scss';
+@use './header.scss';
 @use './like.scss';
 @use './avatar.scss';
+@use './lang-switcher.scss';
 
 
 html,
@@ -39,7 +41,11 @@ h6 {
 *::after {
   box-sizing: border-box;
 }
-
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 .container {
   width: 100%;
   margin: 0 auto;
