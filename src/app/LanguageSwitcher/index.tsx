@@ -1,4 +1,4 @@
-import { useLang } from "@/src/context/LangContext";
+import { useLang } from "@/context/LangContext";
 
 
 export default function LanguageSwitcher() {

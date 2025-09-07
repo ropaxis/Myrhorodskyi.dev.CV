@@ -1,7 +1,7 @@
 "use client";
-import Header from '@/src/app/Header'
-import HtmlLangUpdater from '@/src/app/HtmlLangUpdater'
-import { useLang } from "@/src/context/LangContext";
+import Header from '@/app/Header'
+import HtmlLangUpdater from '@/app/HtmlLangUpdater'
+import { useLang } from "@/context/LangContext";
 
 export default function HomePage() {
   const { text } = useLang();

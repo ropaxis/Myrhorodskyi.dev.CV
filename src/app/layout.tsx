@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { LangProvider } from "@/src/context/LangContext";
+import { LangProvider } from "@/context/LangContext";
 import "normalize.css"
 import "./styles/globals.scss";
 
