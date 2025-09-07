@@ -1,6 +1,6 @@
 import Logo from "@/app/svg/Logo"
 import LanguageSwitcher from '@/app/LanguageSwitcher';
-import Like from '@/app/Like/index';
+import Like from '@/app/Like/Like';
 
 export default function PageHeader() {
     return (
