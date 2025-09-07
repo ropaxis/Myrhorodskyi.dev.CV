@@ -1,6 +1,6 @@
 import Logo from "../Logo"
 import LanguageSwitcher from '../LanguageSwitcher';
-import Like from '../Like';
+import Like from '../Like/index';
 
 export default function PageHeader() {
     return (
