@@ -1,6 +1,5 @@
 "use client";
 import Header from '@/src/app/Header'
-import Like from '@/src/app/Like';
 import HtmlLangUpdater from '@/src/app/HtmlLangUpdater'
 import { useLang } from "@/src/context/LangContext";
 
