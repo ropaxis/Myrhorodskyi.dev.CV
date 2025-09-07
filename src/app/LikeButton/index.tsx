@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, FormEvent, useEffect } from "react";
-import { useLikes } from "@/app/Like/useLikes";
+import { useLikes } from "@/app/LikeButton/useLikes";
 import { useLang } from '@/context/LangContext'
 import Heart from '@/app/svg/Heart'
 
