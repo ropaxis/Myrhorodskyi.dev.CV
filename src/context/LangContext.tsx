@@ -1,9 +1,9 @@
 
 "use client";
 import { createContext, useContext, useState, ReactNode, useEffect } from "react";
-import en from "@/src/locales/en.json";
-import ua from "@/src/locales/ua.json";
-import pl from "@/src/locales/pl.json";
+import en from "@/locales/en.json";
+import ua from "@/locales/ua.json";
+import pl from "@/locales/pl.json";
 
 type Lang = "en" | "pl" | "ua";
 const translations: Record<Lang, typeof en> = { en, ua, pl };
