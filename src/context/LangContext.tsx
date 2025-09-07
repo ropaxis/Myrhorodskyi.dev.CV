@@ -1,4 +1,4 @@
-// src/context/LangContext.tsx
+
 "use client";
 import { createContext, useContext, useState, ReactNode, useEffect } from "react";
 import en from "@/src/locales/en.json";
@@ -22,7 +22,6 @@ export function LangProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     const saved = localStorage.getItem("lang 'Myr-dev'") as Lang | null;
-    console.log("🚀 ~ LangProvider ~ saved:", saved)
     if (saved) setLang(saved);
   }, []);
 

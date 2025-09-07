@@ -1,5 +1,5 @@
 type HeartProps = {
-  color?: string; // знак ? робить його необов'язковим
+  color?: string; 
 };
 
 export default function Heart({color}: HeartProps) {

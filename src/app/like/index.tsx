@@ -3,7 +3,7 @@
 import { useState, FormEvent, useEffect } from "react";
 import { useLikes } from "./useLikes";
 import { useLang } from '@/src/context/LangContext'
-import Heart from './Heart'
+import Heart from '../svg/Heart'
 
 export default function Like() {
     const { likes, liked, getLikes, setLiked } = useLikes();
