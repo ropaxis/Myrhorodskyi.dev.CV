@@ -1,6 +1,6 @@
 import Logo from "@/app/svg/Logo"
 import LanguageSwitcher from '@/app/LanguageSwitcher';
-import Like from '@/app/Like/Like';
+// import Like from '@/app/Like';
 
 export default function PageHeader() {
     return (
@@ -12,7 +12,7 @@ export default function PageHeader() {
                     </a>
                 </div>
                 <div className="header__actions">
-                    <Like />
+                    {/* <Like /> */}
                     <LanguageSwitcher />
                 </div>
             </div>
