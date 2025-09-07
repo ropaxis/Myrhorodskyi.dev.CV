@@ -1,9 +1,9 @@
 "use client";
 
 import { useState, FormEvent, useEffect } from "react";
-import { useLikes } from "./useLikes";
+import { useLikes } from "@/app/Like/useLikes";
 import { useLang } from '@/context/LangContext'
-import Heart from '../svg/Heart'
+import Heart from '@/app/svg/Heart'
 
 export default function Like() {
     const { likes, liked, getLikes, setLiked } = useLikes();
