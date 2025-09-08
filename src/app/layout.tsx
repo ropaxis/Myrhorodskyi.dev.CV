@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import { LangProvider } from "@/context/LangContext";
+import { ModalProvider } from "@/context/ModalContext";
+import { LikesProvider } from "@/context/LikesContext";
 import "normalize.css"
-import "./styles/globals.scss";
+import "@/styles/globals.scss";
 
 
 export const metadata: Metadata = {
@@ -19,7 +21,14 @@ export default function RootLayout({
       <body
         className=""
       >
-        <LangProvider>{children}</LangProvider>      </body>
+        <LangProvider>
+          <LikesProvider>
+          <ModalProvider>
+            {children}
+          </ModalProvider>
+          </LikesProvider>
+        </LangProvider>
+      </body>
     </html>
   );
 }

@@ -1,6 +1,6 @@
 "use client";
-import Header from '@/app/Header'
-import HtmlLangUpdater from '@/app/HtmlLangUpdater'
+import Header from '@/components/Header'
+import HtmlLangUpdater from '@/components/HtmlLangUpdater'
 import { useLang } from "@/context/LangContext";
 
 export default function HomePage() {

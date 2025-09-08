@@ -3,7 +3,6 @@ import { useLang } from "@/context/LangContext";
 
 export default function LanguageSwitcher() {
     const { changeLang, languages } = useLang();
-    console.log("🚀 ~ LanguageSwitcher ~ languages:", useLang())
 
 
     return (
