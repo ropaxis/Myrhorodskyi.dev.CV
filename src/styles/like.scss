@@ -11,6 +11,7 @@
     cursor: pointer;
     outline: none;
     max-width: 50px;    
+    min-width: 50px;    
 
     &:hover {
       animation: pulse 0.7s infinite;     }
