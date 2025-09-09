@@ -5,8 +5,8 @@ import Logotype from '@/components/Logotype'
 
 export default function PageHeader() {
     return (
-        <header className="header">
-            <div className="header__container container">
+        <header className="header container">
+            <div className="header__container">
                 <div className="header__logo-container">
                     <Logotype />
                 </div>

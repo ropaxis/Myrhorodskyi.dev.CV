@@ -28,11 +28,11 @@ export default function Like() {
     return (
         <div className="like">
             <button
-                onClick={liked ? onLikeAlready : () => openModal(<ModalForm/>)}
+                onClick={liked ? onLikeAlready : () => openModal(<ModalForm />)}
                 className='like__button'>
                 <Heart color={liked ? '#cb09b6' : '#ff0000'} />
+                <p className="like__count"> <span className='like__count-text'>{`${text.like['like-button']}:`}</span> {likes.length}</p>
             </button>
-            <p> {`${text.like['like-button']}: ${likes.length}`}</p>
         </div>
     )
 }
