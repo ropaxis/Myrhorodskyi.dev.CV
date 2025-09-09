@@ -11,8 +11,8 @@ export default function PageHeader() {
                     <Logotype />
                 </div>
                 <div className="header__actions">
-                    <Like />
                     <LanguageSwitcher />
+                    <Like />
                 </div>
             </div>
         </header>
