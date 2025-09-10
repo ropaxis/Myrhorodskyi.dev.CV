@@ -1,12 +1,87 @@
+
 {
-    "title": "Programista front-end",
-    "name": "Roman Myrhorodskyi",
-    "like": {
-        "like-button": "Lajk",
-        "description": "Zostaw lajka!",
-        "like-accept": "Potwierdzać",
-        "like-cancel": "Anulować",
-        "like-name": "Twoje imię",
-        "like-warning": "Już ci się spodobało!"
-    }
+  "title": "Frontend Developer",
+  "name": "Roman Myrhorodskyi",
+  "contact": {
+    "description": "Kontakt",
+    "phone": "Telefon",
+    "email": "E-mail",
+    "location": "Lokalizacja",
+    "linkedin": "LinkedIn"
+  },
+  "summary": "Frontend Developer z ponad 4-letnim doświadczeniem komercyjnym w tworzeniu responsywnych i przyjaznych użytkownikowi aplikacji webowych z wykorzystaniem React, Vue i TypeScript. Udowodniona zdolność do dostarczania skalowalnych komponentów UI, integracji z REST API oraz współpracy w zespołach Agile.",
+  "experience": {
+    "title": "Doświadczenie zawodowe",
+    "list": [
+      {
+        "role": "Freelance Frontend Developer",
+        "years": "2019 – 2020",
+        "description": "Praca nad różnymi projektami freelancerskimi z zakresu tworzenia stron internetowych i interfejsów.",
+        "tech": "JavaScript, React, HTML, CSS"
+      },
+      {
+        "role": "Frontend Developer / Blaster.ai",
+        "years": "2020 – 2021",
+        "description": "Opracowanie komponentów UI i dynamicznego kalkulatora kosztów dla wilive.fr. Tworzenie testów po stronie klienta związanych z oceną zdrowia i kondycji.",
+        "tech": "JavaScript, React, Next.js, TypeScript, Storybook"
+      },
+      {
+        "role": "Frontend Developer / Vintage Web Production",
+        "years": "2021 – 2022",
+        "description": "Budowa modułowych komponentów UI dla oschadbank.ua. Integracja kalkulatora kosztów dla toyota.ua. Integracja mapy sklepów i panelu klienta dla novus.ua.",
+        "tech": "Vue, Nuxt, JavaScript, SCSS, REST API, Jira"
+      },
+      {
+        "role": "Frontend Developer / Armed Forces of Ukraine",
+        "years": "2024 – 2025",
+        "description": "Tworzenie bezpiecznej aplikacji webowej dla Ministerstwa Obrony Ukrainy. Implementacja funkcji interfejsu, integracja wewnętrznych API, pisanie komponentów React.",
+        "tech": "JavaScript, React, REST API, HTML, CSS"
+      },
+      {
+        "role": "Rozwój zawodowy / Samokształcenie",
+        "years": "2025 – obecnie",
+        "description": "Nauka dokumentacji, śledzenie trendów branżowych i odświeżanie umiejętności frontendowych.",
+        "tech": "JavaScript, React, Next.js, TypeScript"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Umiejętności techniczne",
+    "main": ["JavaScript", "TypeScript", "React", "Next.js", "Vue", "Nuxt", "HTML", "CSS", "REST API", "Git"],
+    "secondary": ["Node.js", "Express", "MongoDB", "Python", "Jira", "Figma"]
+  },
+  "achievements": {
+    "title": "Najważniejsze osiągnięcia",
+    "list": [
+      "Wykonanie zadań deweloperskich o 20–30% szybciej niż planowano, co poprawiło efektywność sprintów i dało czas na ulepszenia kodu.",
+      "Skrócenie czasu rozwiązywania błędów o 25% dzięki skutecznemu debugowaniu i jasnej komunikacji z QA."
+    ]
+  },
+  "education": {
+    "title": "Edukacja",
+    "list": [
+      "Dyplom specjalisty w telekomunikacji / Narodowy Uniwersytet Lotniczy (2006–2011)",
+      "Kurs Fullstack development / GO IT (2019)"
+    ]
+  },
+  "languages": {
+    "title": "Języki",
+    "list": [
+      "Angielski – B1 (średniozaawansowany, rozmowy techniczne)",
+      "Polski – A2 (podstawowy, w trakcie nauki)",
+      "Ukraiński – ojczysty"
+    ]
+  },
+  "interests": {
+    "title": "Zainteresowania",
+    "list": ["Codewars", "Treningi na świeżym powietrzu (kalistenika)", "Literatura klasyczna i fantastyczna", "Muzyka"]
+  },
+  "like": {
+    "like-button": "Lubię to",
+    "description": "Zostaw lajka!",
+    "like-accept": "Wyślij",
+    "like-cancel": "Anuluj",
+    "like-name": "Twoje imię",
+    "like-warning": "Już to polubiłeś!"
+  }
 }

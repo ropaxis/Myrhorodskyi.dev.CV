@@ -1,12 +1,86 @@
 {
-    "title": "Frontend developer",
-    "name": "Roman Myrhorodskyi",
-    "like": {
-        "like-button": "Like",
-        "description": "Leave a like!",
-        "like-accept": "Submit",
-        "like-cancel": "Cancel",
-        "like-name": "Your name",
-        "like-warning": "You have already liked this!"
-    }
+  "title": "Frontend Developer",
+  "name": "Roman Myrhorodskyi",
+  "contact": {
+    "description": "Contact",
+    "phone": "Phone",
+    "email": "Email",
+    "location": "Location",
+    "linkedin": "LinkedIn"
+  },
+  "summary": "Frontend Developer with 4+ years of commercial experience building responsive and user-friendly web applications using React, Vue, and TypeScript. Proven ability to deliver scalable UI components, integrate with REST APIs, and collaborate in Agile teams.",
+  "experience": {
+    "title": "Professional Experience",
+    "list": [
+      {
+        "role": "Freelance Frontend Developer",
+        "years": "2019 – 2020",
+        "description": "Worked on various freelance projects focused on website and UI development.",
+        "tech": "JavaScript, React, HTML, CSS"
+      },
+      {
+        "role": "Frontend Developer / Blaster.ai",
+        "years": "2020 – 2021",
+        "description": "Developed UI components and a dynamic cost calculator for wilive.fr. Built client-side tests related to health and fitness assessment.",
+        "tech": "JavaScript, React, Next.js, TypeScript, Storybook"
+      },
+      {
+        "role": "Frontend Developer / Vintage Web Production",
+        "years": "2021 – 2022",
+        "description": "Built modular UI components for oschadbank.ua. Integrated cost calculator for toyota.ua. Integrated store map and customer cabinet for novus.ua.",
+        "tech": "Vue, Nuxt, JavaScript, SCSS, REST API, Jira"
+      },
+      {
+        "role": "Frontend Developer / Armed Forces of Ukraine",
+        "years": "2024 – 2025",
+        "description": "Developed a secure web application for the Ministry of Defense of Ukraine. Implemented UI functionality, integrated internal APIs, and wrote reusable React components.",
+        "tech": "JavaScript, React, REST API, HTML, CSS"
+      },
+      {
+        "role": "Professional Development / Self Education",
+        "years": "2025 – present",
+        "description": "Studying documentation, following industry trends, and refreshing frontend skills.",
+        "tech": "JavaScript, React, Next.js, TypeScript"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "main": ["JavaScript", "TypeScript", "React", "Next.js", "Vue", "Nuxt", "HTML", "CSS", "REST API", "Git"],
+    "secondary": ["Node.js", "Express", "MongoDB", "Python", "Jira", "Figma"]
+  },
+  "achievements": {
+    "title": "Key Achievements",
+    "list": [
+      "Completed development tasks 20–30% faster than planned, improving sprint efficiency and freeing time for code improvements.",
+      "Reduced bug resolution time by 25% through effective debugging and clear communication with QA."
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "list": [
+      "Specialist degree in Telecommunications / National Aviation University (2006–2011)",
+      "Fullstack development course / GO IT (2019)"
+    ]
+  },
+  "languages": {
+    "title": "Languages",
+    "list": [
+      "English – B1 (Intermediate, can pass technical interviews)",
+      "Polish – A2 (Elementary, learning)",
+      "Ukrainian – Native"
+    ]
+  },
+  "interests": {
+    "title": "Interests",
+    "list": ["Codewars", "Outdoor fitness (calisthenics)", "Classical and fantasy literature", "Music"]
+  },
+  "like": {
+    "like-button": "Like",
+    "description": "Leave a like!",
+    "like-accept": "Submit",
+    "like-cancel": "Cancel",
+    "like-name": "Your name",
+    "like-warning": "You have already liked this!"
+  }
 }
