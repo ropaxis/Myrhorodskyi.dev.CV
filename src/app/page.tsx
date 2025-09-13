@@ -11,10 +11,7 @@ export default function HomePage() {
     <>
       <HtmlLangUpdater />
       <Header />
-
-
       <Main />
-
     </>
   );
 }

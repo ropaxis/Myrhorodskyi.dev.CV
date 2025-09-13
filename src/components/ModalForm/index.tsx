@@ -6,7 +6,7 @@ import { useLikesContext } from "@/context/LikesContext";
 export default function ModalForm() {
     const [name, setName] = useState('');
     const { text } = useLang();
-    const { likes, liked, setLiked, getLikes } = useLikesContext();
+    const { setLiked, getLikes } = useLikesContext();
     const { closeModal } = useModal();
 
 

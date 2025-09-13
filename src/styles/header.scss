@@ -1,4 +1,5 @@
 @use './variables.scss' as v;
+
 .header {
     &__container {}
 
@@ -19,29 +20,10 @@
         min-height: 100px;
     }
 
-    &__logo {
-        display: block;
-        width: 100%;
-        height: 100%;
-
-        & .main-letter {
-            fill: black;
-            transition: 1s;
-        }
-
-        svg {
-            width: 100%;
-            max-width: 200px;
 
 
 
 
-            &:hover .main-letter {
-                fill: red;
-            }
-        }
-
-    }
 
     &__actions {
         display: flex;
@@ -50,11 +32,11 @@
 
     &__main-info {
         display: flex;
-        justify-content: space-between;
-        gap: 16px;
-        padding: 16px;
+        padding: 16px 0;
 
         &.sticky {
+            justify-content: space-between;
+
             position: fixed;
             top: 0;
             left: 0;
@@ -62,10 +44,44 @@
             width: 100%;
             z-index: 100;
             background-color: v.$color-primary;
-            
+            padding: 16px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
     }
+
+    &__logo-block {
+        &.fade-in {
+            width: 50px;
+            height: 50px;
+            margin-right: 16px;
+            transition: all 0.3s;
+
+        }
+
+        &.fade-out {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            margin-right: 0;
+            transition: all 0.3s;
+        }
+    }
+
+    &__name-block {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 4px;
+        font-size: 16px;
+    }
+
+    &__name-avatar-block {
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+
 
     &__name {
         font-size: 16px;
@@ -89,6 +105,8 @@
             border-radius: 50%;
         }
     }
+
+
 
     &__avatar-image {
         width: 100%;
