@@ -1,5 +1,5 @@
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Like from '@/components/LikeButton';
 import Logotype from '@/components/Logotype'
@@ -10,21 +10,29 @@ export default function PageHeader() {
     const { text } = useLang();
     const [isSticky, setSticky] = useState(false);
     const [isOpen, setIsOpen] = useState(false);
-
+    const [padding, setPadding] = useState(0);
+    const headerRef = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
         const handleScroll = () => {
-            setSticky(window.scrollY > 50);
+            setSticky(window.scrollY > 100);
+
         };
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
+
     }, []);
 
+    useEffect(() => {
+        if (headerRef.current) {
+            setPadding(headerRef.current.offsetHeight);
+        }
+    }, [isSticky]);
 
     return (
         <header className="header">
             <div className="header__container container">
-                <div className='header__nav-block'>
+                <div className='header__nav-block' style={{ paddingBottom: isSticky ? `${padding }px` : "0px" }}>
                     <div className="header__logo">
                         <Logotype />
                     </div>
@@ -33,7 +41,7 @@ export default function PageHeader() {
                         <Like />
                     </div>
                 </div>
-                <div className={`header__main-info ${isSticky ? 'sticky' : ''}`}>
+                <div className={`header__main-info ${isSticky ? 'sticky' : ''}`} ref={headerRef}>
                     <div className={`header__logo-block ${isSticky ? 'fade-in' : 'fade-out'}`}>
                         <Logotype oneLetter className={isSticky ? "fade-in" : "fade-out"} />
                     </div>

@@ -29,9 +29,15 @@
         background-color: transparent;
         border: none;
         padding: 0;
+    
+        
+        & svg {
+            fill: aquamarine;
+            transition: all 0.3s ease-in-out;
+        }
 
         &:hover svg {
-            fill: red;
+            fill: greenyellow;
             animation: spin 4s linear infinite;
         }
     }
