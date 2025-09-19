@@ -1,5 +1,9 @@
 My Portfolio (Pet Project)
 
+Live Demo
+Check out the live version of the site here: https://myrhorodskyi-dev-cv.vercel.app
+
+
 This is a personal portfolio website built with Next.js.
 ⚠️ Work in progress: design improvements and additional features are still coming. Currently, the "Like" button works only for the resume section.
 
