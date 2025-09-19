@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+My Portfolio (Pet Project)
 
-## Getting Started
+This is a personal portfolio website built with Next.js.
+⚠️ Work in progress: design improvements and additional features are still coming. Currently, the "Like" button works only for the resume section.
 
-First, run the development server:
+Features (so far)
 
-```bash
+Responsive layout
+
+Smooth animations
+
+Language switcher
+
+"Like" button for resume
+
+Getting Started
+
+To run the project locally:
+
+# Install dependencies
+npm install
+# or
+yarn
+# or
+pnpm install
+
+# Start development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open http://localhost:3000
+ to view the site. The page updates automatically as you edit files.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Project Structure
 
-## Learn More
+app/ – main pages and routing
 
-To learn more about Next.js, take a look at the following resources:
+components/ – reusable UI components
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+styles/ – global and component styles
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Learn More
 
-## Deploy on Vercel
+Official Next.js resources:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Next.js Documentation
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Learn Next.js
+
+Deployment
+
+This project can be deployed on Vercel, optimized for Next.js apps.
