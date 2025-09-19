@@ -3,7 +3,6 @@ import { useEffect, useState, useRef } from 'react'
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Like from '@/components/LikeButton';
 import Logotype from '@/components/Logotype'
-import Logo from '@/components/svg/Logo'
 import { useLang } from "@/context/LangContext";
 
 export default function PageHeader() {

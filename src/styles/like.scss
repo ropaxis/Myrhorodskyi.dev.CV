@@ -1,8 +1,15 @@
+@use './variables.scss' as v;
 .like {
   display: flex;
   flex-direction: column;
   align-items: center;
 
+  &__warning{
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: v.$color-primary;
+}
   &__button {
     background: none;
     border: none;

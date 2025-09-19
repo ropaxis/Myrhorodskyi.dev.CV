@@ -15,7 +15,7 @@ export default function Like() {
 
     const onLikeAlready = () => {
         openModal(
-            (<h3 className="" > {text.like["like-warning"]}</h3>)
+            (<h3 className="like__warning" > {text.like["like-warning"]}</h3>)
         )
         const timer = setTimeout(
             closeModal, 3000)

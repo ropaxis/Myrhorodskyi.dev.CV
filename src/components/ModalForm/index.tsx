@@ -32,7 +32,7 @@ export default function ModalForm() {
     }
 
     return (
-        <div className="">
+        <div className="modal-form">
             <div className="">
                 <>
                     <h3 className="">{text.like.description}</h3>
