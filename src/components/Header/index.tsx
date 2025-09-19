@@ -30,9 +30,9 @@ export default function PageHeader() {
     }, [isSticky]);
 
     return (
-        <header className="header">
-            <div className="header__container container">
-                <div className='header__nav-block' style={{ paddingBottom: isSticky ? `${padding }px` : "0px" }}>
+        <header className="header container">
+            <div className={`header__container container ${isSticky ? 'sticky' : ''}`}>
+                <div className='header__nav-block' style={{ paddingBottom: isSticky ? `${padding}px` : "0px" }}>
                     <div className="header__logo">
                         <Logotype />
                     </div>

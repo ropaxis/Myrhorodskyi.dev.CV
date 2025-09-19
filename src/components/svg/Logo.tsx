@@ -2,10 +2,11 @@ interface LogoProps {
     oneLetter?: boolean
 }
 export default function Logo({ oneLetter = false }: LogoProps) {
+ 
     return (
         <svg width="100%" height="100%" viewBox={`0 0 ${oneLetter ? 162 : 836} 162`} >
 
-            <g transform="translate(0.000000,162.000000) scale(0.100000,-0.100000)" stroke="none">
+            <g transform="translate(0.000000,162.000000) scale(0.100000,-0.100000)">
                 <path className="main-letter" d="M730 1583 c-295 -34 -548 -239 -645 -522 -86 -252 -34 -542 134 -747 211 -259 604 -348 909 -208 200 91 349 255 418 459 22 65 28 104 32 205 7 189 -31 327 -133 480 -153 230 -441 364 -715 333z m-51 -553 c68 -99 126 -182 130 -185 4 -2 64 79 132 180 l124 184 68 1 67 0 0 -405 0 -405 -75 0 -75 0 -2 251 -3 250 -115 -165 c-63 -91 -117 -166 -120 -165 -3 0 -57 75 -120 167 l-115 166 -3 -252 -2 -252 -75 0 -75 0 0 405 0 405 68 0 68 0 123 -180z" />
                 {!oneLetter &&
                     <>

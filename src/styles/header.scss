@@ -1,7 +1,19 @@
 @use './variables.scss' as v;
 
 .header {
-    &__container {}
+    color: v.$color-text-wh;
+
+
+    &__container {
+        background: linear-gradient(114.66deg, rgba(52, 52, 52, 0.4) -14.14%, rgba(35, 35, 35, 0.24) 74.98%);
+        backdrop-filter: blur(10px);
+
+        &.sticky {
+            backdrop-filter: none;
+        }
+
+        
+    }
 
     &__nav-block {
         display: flex;
@@ -20,11 +32,6 @@
         min-height: 100px;
     }
 
-
-
-
-
-
     &__actions {
         display: flex;
         gap: 16px;
@@ -36,16 +43,16 @@
 
         &.sticky {
             justify-content: space-between;
-
             position: fixed;
             top: 0;
             left: 0;
             right: 0;
             width: 100%;
             z-index: 100;
-            background-color: v.$color-primary;
             padding: 16px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background: linear-gradient(114.66deg, rgba(52, 52, 52, 0.4) -14.14%, rgba(35, 35, 35, 0.24) 74.98%);
+            backdrop-filter: blur(10px);
         }
 
     }

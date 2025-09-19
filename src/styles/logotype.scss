@@ -1,3 +1,5 @@
+@use './variables.scss' as v;
+
 .logotype {
     display: block;
     width: 100%;
@@ -10,19 +12,37 @@
     }
 
     & .main-letter {
-        fill: black;
+
         transition: 1s;
     }
 
     svg {
+
+        stroke: v.$color-text-wh;
+        
         width: 100%;
         max-width: 200px;
+        fill: v.$color-text-wh;
+
+        .main-letter {
+            fill: transparent;
+            stroke-width: 50;
+            stroke-dasharray: 9747;
+            stroke-dashoffset: 9747;
+            animation: draw 3s linear forwards;
+            transition: fill 0.3s ease-in;
+        }
 
         &:hover .main-letter {
-            fill: red;
+            fill: v.$color-primary;
         }
     }
 
+    @keyframes draw {
+        to {
+            stroke-dashoffset: 0;
+        }
+    }
 
     &.fade-in {
         width: 50px;
@@ -38,4 +58,8 @@
         height: 0;
         transition: all 0.3s;
     }
+
+
+
+
 }
