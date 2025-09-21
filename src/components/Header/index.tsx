@@ -30,7 +30,7 @@ export default function PageHeader() {
 
     return (
         <header className="header container">
-            <div className={`header__container container ${isSticky ? 'sticky' : ''}`}>
+            <div className={`header__container ${isSticky ? 'sticky' : ''}`}>
                 <div className='header__nav-block' style={{ paddingBottom: isSticky ? `${padding}px` : "0px" }}>
                     <div className="header__logo">
                         <Logotype />
@@ -41,7 +41,8 @@ export default function PageHeader() {
                     </div>
                 </div>
                 <div className={`header__main-info ${isSticky ? 'sticky' : ''}`} ref={headerRef}>
-                    <div className={`header__logo-block ${isSticky ? 'fade-in' : 'fade-out'}`}>
+                    <div className={`header__main-info--container  ${isSticky ? 'container' : ''}`}>
+                        <div className={`header__logo-block ${isSticky ? 'fade-in' : 'fade-out'}`}>
                         <Logotype oneLetter className={isSticky ? "fade-in" : "fade-out"} />
                     </div>
                     <div className='header__name-avatar-block'>
@@ -53,6 +54,7 @@ export default function PageHeader() {
                         <div className={`header__avatar-container ${isSticky ? 'sticky' : ''}`} >
                             <img src="/images/Myrhorodskyi.jpg" alt="Roman Myrhorodskyi photo" className='header__avatar-image'></img>
                         </div>
+                    </div>
                     </div>
                 </div>
                 <div className='header__contact-block'>

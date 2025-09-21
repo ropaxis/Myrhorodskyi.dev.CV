@@ -5,6 +5,7 @@
 
 
     &__container {
+        padding: 16px;
         background: linear-gradient(114.66deg, rgba(52, 52, 52, 0.4) -14.14%, rgba(35, 35, 35, 0.24) 74.98%);
         backdrop-filter: blur(10px);
 
@@ -12,7 +13,7 @@
             backdrop-filter: none;
         }
 
-        
+
     }
 
     &__nav-block {
@@ -21,7 +22,6 @@
         justify-content: space-between;
         gap: 16px;
         min-height: 100px;
-        padding: 16px 0;
     }
 
     &__logo-container {
@@ -38,18 +38,24 @@
     }
 
     &__main-info {
-        display: flex;
-        padding: 16px 0;
+
+        &--container {
+            display: flex;
+        }
 
         &.sticky {
-            justify-content: space-between;
+            // & .header__main-info--container {
+            //     justify-content: space-between;
+            // }
+
+
             position: fixed;
             top: 0;
             left: 0;
             right: 0;
             width: 100%;
             z-index: 100;
-            padding: 16px;
+            padding: 16px 0;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             background: linear-gradient(114.66deg, rgba(52, 52, 52, 0.4) -14.14%, rgba(35, 35, 35, 0.24) 74.98%);
             backdrop-filter: blur(10px);

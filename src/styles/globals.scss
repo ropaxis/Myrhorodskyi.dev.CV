@@ -63,10 +63,12 @@ ul {
 
   @include respond(tablet) {
     max-width: 720px;
+    padding: 0 24px;
   }
 
   @include respond(laptop) {
     max-width: 960px;
+    padding: 0 32px;;
 
   }
 
