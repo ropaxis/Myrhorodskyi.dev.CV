@@ -41,21 +41,16 @@
 
         &--container {
             display: flex;
+            padding: 16px 0;
         }
 
         &.sticky {
-            // & .header__main-info--container {
-            //     justify-content: space-between;
-            // }
-
-
             position: fixed;
             top: 0;
             left: 0;
             right: 0;
             width: 100%;
             z-index: 100;
-            padding: 16px 0;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             background: linear-gradient(114.66deg, rgba(52, 52, 52, 0.4) -14.14%, rgba(35, 35, 35, 0.24) 74.98%);
             backdrop-filter: blur(10px);
@@ -134,5 +129,20 @@
 
     &__avatar-image {
         width: 100%;
+    }
+
+    &__contacts-list {
+        & li {
+            display: flex;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            &:not(:last-child) {
+                margin-bottom: 8px;
+            }
+
+        }
+
+        & * {
+            flex: 0 0 50%;
+        }
     }
 }

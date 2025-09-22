@@ -1,4 +1,4 @@
-import { useState, FormEvent} from "react";
+import { useState, FormEvent } from "react";
 import { useModal } from "@/context/ModalContext"
 import { useLang } from '@/context/LangContext'
 import { useLikesContext } from "@/context/LikesContext";
@@ -33,20 +33,18 @@ export default function ModalForm() {
 
     return (
         <div className="modal-form">
-            <div className="">
-                <>
-                    <h3 className="">{text.like.description}</h3>
-                    <form onSubmit={onSubmitForm} className="mt-4">
-                        <div>
-                            <label htmlFor="name" className="">{text.like['like-name']}:</label>
-                            <input type="text" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)} className="" />
-                        </div>
-                        <div className="flex justify-end mt-4">
-                            <button type="button" onClick={() => closeModal()} className="">{text.like['like-cancel']}</button>
-                            <button type="submit" className="">{text.like['like-accept']}</button>
-                        </div>
-                    </form>
-                </>
+            <div className="modal-form__container">
+                <h3 className="modal-form__title">{text.like.description}</h3>
+                <form onSubmit={onSubmitForm} className="modal-form__form">
+                    <div className="modal-form__input-block">
+                        <label htmlFor="name" className="">{text.like['like-name']}:</label>
+                        <input type="text" id="name" name="name" value={name} onChange={(e) => setName(e.target.value)} className="" />
+                    </div>
+                    <div className="modal-form__buttons">
+                        <button type="button" onClick={() => closeModal()} className="">{text.like['like-cancel']}</button>
+                        <button type="submit" className="">{text.like['like-accept']}</button>
+                    </div>
+                </form>
             </div>
         </div>
     )

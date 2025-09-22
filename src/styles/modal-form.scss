@@ -5,4 +5,20 @@
     border: 1px solid black;
     border-radius: 4px;
     background-color: v.$color-primary;
+
+    &__title {
+        margin-bottom: 16px;
+        font-size: 24px;
+    }
+
+    &__input-block {
+        margin-bottom: 16px;
+    }
+    &__buttons {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+    
+    }
+
 }

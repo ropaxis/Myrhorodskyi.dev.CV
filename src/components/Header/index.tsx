@@ -40,49 +40,50 @@ export default function PageHeader() {
                         <Like />
                     </div>
                 </div>
-                <div className={`header__main-info ${isSticky ? 'sticky' : ''}`} ref={headerRef}>
-                    <div className={`header__main-info--container  ${isSticky ? 'container' : ''}`}>
+                <div className={`header__main-info ${isSticky ? 'sticky container' : ''}`} ref={headerRef}>
+                    <div className={`header__main-info--container`}>
                         <div className={`header__logo-block ${isSticky ? 'fade-in' : 'fade-out'}`}>
-                        <Logotype oneLetter className={isSticky ? "fade-in" : "fade-out"} />
-                    </div>
-                    <div className='header__name-avatar-block'>
-                        <div className='header__name-block'>
-                            <h1 className="header__name">{text.name}</h1>
-                            <h2 className="header__profession">{text.title}</h2>
-                            <button className='header__contact-button' onClick={() => setIsOpen(prev => !prev)}>{text.contact.description}</button>
+                            <Logotype oneLetter className={isSticky ? "fade-in" : "fade-out"} />
                         </div>
-                        <div className={`header__avatar-container ${isSticky ? 'sticky' : ''}`} >
-                            <img src="/images/Myrhorodskyi.jpg" alt="Roman Myrhorodskyi photo" className='header__avatar-image'></img>
+                        <div className='header__name-avatar-block'>
+                            <div className='header__name-block'>
+                                <h1 className="header__name">{text.name}</h1>
+                                <h2 className="header__profession">{text.title}</h2>
+                                <button className='header__contact-button' onClick={() => setIsOpen(prev => !prev)}>{text.contact.description}</button>
+                            </div>
+                            <div className={`header__avatar-container ${isSticky ? 'sticky' : ''}`} >
+                                <img src="/images/Myrhorodskyi.jpg" alt="Roman Myrhorodskyi photo" className='header__avatar-image'></img>
+                            </div>
                         </div>
                     </div>
+                    <div className='header__contact-block'>
+                        {isOpen && <div className='header__contacts'>
+                            <ul className='header__contacts-list'>
+                                <li>
+                                    <p>{text.contact.phone}:
+                                    </p>
+                                    <a href="tel:+48575916086">+48575916086</a>
+                                </li>
+                                <li>
+                                    <p>{text.contact.email}:
+                                    </p>
+                                    <a href="mailto:myrhorodskyi.r@gmail.com">myrhorodskyi.r@gmail.com</a>
+                                </li>
+                                <li>
+                                    <p>{text.contact.location}:
+                                    </p>
+                                    <p>Krakow</p>
+                                </li>
+                                <li>
+                                    <p>{text.contact.linkedin}:
+                                    </p>
+                                    <a href='https://www.linkedin.com/in/roman-myrhorodskyi-195b0918a/'>linkedin.com</a>
+                                </li>
+                            </ul>
+                        </div>}
                     </div>
                 </div>
-                <div className='header__contact-block'>
-                    {isOpen && <div className='header__contacts'>
-                        <ul>
-                            <li>
-                                <p>{text.contact.phone}:
-                                </p>
-                                <a href="tel:+48575916086">+48575916086</a>
-                            </li>
-                            <li>
-                                <p>{text.contact.email}:
-                                </p>
-                                <a href="mailto:myrhorodskyi.r@gmail.com">myrhorodskyi.r@gmail.com</a>
-                            </li>
-                            <li>
-                                <p>{text.contact.location}:
-                                </p>
-                                <p>Krakow</p>
-                            </li>
-                            <li>
-                                <p>{text.contact.linkedin}:
-                                </p>
-                                <a href='https://www.linkedin.com/in/roman-myrhorodskyi-195b0918a/'>linkedin.com</a>
-                            </li>
-                        </ul>
-                    </div>}
-                </div>
+
             </div>
         </header>
     )
