@@ -11,6 +11,11 @@
     &__container {
         background-color: v.$color-secondary;
 
+    }
+
+    &__block {
+        padding: 16px 0;
+
         &>*:not(:last-child) {
             margin-bottom: 16px;
         }

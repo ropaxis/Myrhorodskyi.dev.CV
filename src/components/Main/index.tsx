@@ -3,7 +3,8 @@ export default function Main() {
     const { text } = useLang();
     return (
         <main className="main container">
-            <div className="main__container container">
+           <div className="main__container container">
+             <div className="main__block ">
                 <h2 className="main__title">
                     {text.summary}
                 </h2>
@@ -99,6 +100,7 @@ export default function Main() {
                     </ul>
                 </div>
             </div>
+           </div>
         </main>
     );
 }
