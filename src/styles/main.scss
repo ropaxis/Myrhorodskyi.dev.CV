@@ -1,7 +1,19 @@
 @use './variables.scss' as v;
 
 .main {
+
+
+    &__title {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
     &__container {
         background-color: v.$color-secondary;
+
+        &>*:not(:last-child) {
+            margin-bottom: 16px;
+        }
     }
+
 }

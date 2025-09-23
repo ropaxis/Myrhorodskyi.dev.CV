@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { LangProvider } from "@/context/LangContext";
 import { ModalProvider } from "@/context/ModalContext";
 import { LikesProvider } from "@/context/LikesContext";
+import localFont from 'next/font/local'
 import "normalize.css"
 import "@/styles/globals.scss";
 
@@ -11,6 +12,26 @@ export const metadata: Metadata = {
   description: "CV Myrhorodskyi dev",
 };
 
+const myFont = localFont({
+  src: [
+    {
+      path: './fonts/Baloo2-Bold.ttf',
+      weight: '700',
+      style: 'bold',
+    },
+    {
+      path: './fonts/Baloo2-Medium.ttf',
+      weight: '500',
+      style: 'medium',
+    },
+    {
+      path: './fonts/Baloo2-Regular.ttf',
+      weight: '400',
+      style: 'regular',
+    },
+  ],
+  variable: '--font-baloo'
+})
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -19,7 +40,7 @@ export default function RootLayout({
   return (
     <html lang="en | pl | ua">
       <body
-        className=""
+        className={myFont.className}
       >
         <LangProvider>
           <LikesProvider>

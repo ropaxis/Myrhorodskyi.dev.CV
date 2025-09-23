@@ -3,6 +3,16 @@
 .header {
     color: v.$color-text-wh;
 
+    &__name {
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    &__profession {
+        font-weight: 500;
+        font-size: 14px;
+    }
+
 
     &__container {
         padding: 16px;
@@ -21,7 +31,7 @@
         align-items: center;
         justify-content: space-between;
         gap: 16px;
-        min-height: 100px;
+        min-height: 50px;
     }
 
     &__logo-container {
@@ -29,7 +39,7 @@
         align-items: center;
         justify-content: center;
         flex: 0 0 50%;
-        min-height: 100px;
+        min-height: 50px;
     }
 
     &__actions {
