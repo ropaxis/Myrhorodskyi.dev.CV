@@ -52,7 +52,9 @@ export default function PageHeader() {
                                 <button className='header__contact-button' onClick={() => setIsOpen(prev => !prev)}>{text.contact.description}</button>
                             </div>
                             <div className={`header__avatar-container ${isSticky ? 'sticky' : ''}`} >
-                                <img src="/images/Myrhorodskyi.jpg" alt="Roman Myrhorodskyi photo" className='header__avatar-image'></img>
+                                <div className='header__avatar-photo-container'>
+                                    <img src="/images/Myrhorodskyi.jpg" alt="Roman Myrhorodskyi photo" className='header__avatar-image'></img>
+                                </div>
                             </div>
                         </div>
                     </div>
