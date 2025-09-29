@@ -4,6 +4,7 @@ import LanguageSwitcher from '@/components/LanguageSwitcher';
 import Like from '@/components/LikeButton';
 import Logotype from '@/components/Logotype'
 import { useLang } from "@/context/LangContext";
+import {contacts} from '@/data/contacts';
 
 export default function PageHeader() {
     const { text } = useLang();
@@ -64,22 +65,22 @@ export default function PageHeader() {
                                 <li>
                                     <p>{text.contact.phone}:
                                     </p>
-                                    <a href="tel:+48575916086">+48575916086</a>
+                                    <a href={`tel:${contacts.phone}`}>{contacts.phone}</a>
                                 </li>
                                 <li>
                                     <p>{text.contact.email}:
                                     </p>
-                                    <a href="mailto:myrhorodskyi.r@gmail.com">myrhorodskyi.r@gmail.com</a>
+                                    <a href={`mailto:${contacts.email}`}>{contacts.email}</a>
                                 </li>
                                 <li>
                                     <p>{text.contact.location}:
                                     </p>
-                                    <p>Krakow</p>
+                                    <p>{contacts.location}</p>
                                 </li>
                                 <li>
                                     <p>{text.contact.linkedin}:
                                     </p>
-                                    <a href='https://www.linkedin.com/in/roman-myrhorodskyi-195b0918a/'>linkedin.com</a>
+                                    <a href={contacts.linkedin}>linkedin.com</a>
                                 </li>
                             </ul>
                         </div>}
