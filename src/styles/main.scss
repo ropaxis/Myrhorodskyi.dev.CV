@@ -1,15 +1,18 @@
 @use './variables.scss' as v;
 
 .main {
-
+    color: v.$color-text-wh;
 
     &__title {
         font-weight: 400;
         font-size: 14px;
+        text-align: center;
     }
 
     &__container {
-        background-color: v.$color-secondary;
+        backdrop-filter: blur(22px);
+        box-shadow: 20px -20px 50px 0px #1F202133;
+
 
     }
 
@@ -21,4 +24,30 @@
         }
     }
 
+    &__skills-block {
+        & ul {
+            padding-left: 14px;
+        }
+
+        & li {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+
+            &::before {
+                content: '';
+                background-color: v.$color-text-wh;
+                width: 2px;
+                height: 2px;
+                border-radius: 50%
+            }
+        }
+
+    }
+
+    &__skills-title {
+        font-size: 14px;
+        font-weight: 600;
+
+    }
 }

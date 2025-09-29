@@ -9,7 +9,7 @@ export default function Main() {
                     {text.summary}
                 </h2>
                 <div className="main__skills-block">
-                    <h3>
+                    <h3 className="main__skills-title">
                         {text.skills.title}
                     </h3>
                     <ul>
