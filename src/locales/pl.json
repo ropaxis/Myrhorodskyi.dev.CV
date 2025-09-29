@@ -14,22 +14,10 @@
     "title": "Doświadczenie zawodowe",
     "list": [
       {
-        "role": "Freelance Frontend Developer",
-        "years": "2019 – 2020",
-        "description": "Praca nad różnymi projektami freelancerskimi z zakresu tworzenia stron internetowych i interfejsów.",
-        "tech": "JavaScript, React, HTML, CSS"
-      },
-      {
-        "role": "Frontend Developer / Blaster.ai",
-        "years": "2020 – 2021",
-        "description": "Opracowanie komponentów UI i dynamicznego kalkulatora kosztów dla wilive.fr. Tworzenie testów po stronie klienta związanych z oceną zdrowia i kondycji.",
-        "tech": "JavaScript, React, Next.js, TypeScript, Storybook"
-      },
-      {
-        "role": "Frontend Developer / Vintage Web Production",
-        "years": "2021 – 2022",
-        "description": "Budowa modułowych komponentów UI dla oschadbank.ua. Integracja kalkulatora kosztów dla toyota.ua. Integracja mapy sklepów i panelu klienta dla novus.ua.",
-        "tech": "Vue, Nuxt, JavaScript, SCSS, REST API, Jira"
+        "role": "Rozwój zawodowy / Samokształcenie",
+        "years": "2025 – obecnie",
+        "description": "Nauka dokumentacji, śledzenie trendów branżowych i odświeżanie umiejętności frontendowych.",
+        "tech": "JavaScript, React, Next.js, TypeScript"
       },
       {
         "role": "Frontend Developer / Armed Forces of Ukraine",
@@ -38,10 +26,22 @@
         "tech": "JavaScript, React, REST API, HTML, CSS"
       },
       {
-        "role": "Rozwój zawodowy / Samokształcenie",
-        "years": "2025 – obecnie",
-        "description": "Nauka dokumentacji, śledzenie trendów branżowych i odświeżanie umiejętności frontendowych.",
-        "tech": "JavaScript, React, Next.js, TypeScript"
+        "role": "Frontend Developer / Vintage Web Production",
+        "years": "2021 – 2022",
+        "description": "Budowa modułowych komponentów UI dla oschadbank.ua. Integracja kalkulatora kosztów dla toyota.ua. Integracja mapy sklepów i panelu klienta dla novus.ua.",
+        "tech": "Vue, Nuxt, JavaScript, SCSS, REST API, Jira"
+      },
+      {
+        "role": "Frontend Developer / Blaster.ai",
+        "years": "2020 – 2021",
+        "description": "Opracowanie komponentów UI i dynamicznego kalkulatora kosztów dla wilive.fr. Tworzenie testów po stronie klienta związanych z oceną zdrowia i kondycji.",
+        "tech": "JavaScript, React, Next.js, TypeScript, Storybook"
+      },
+      {
+        "role": "Freelance Frontend Developer",
+        "years": "2019 – 2020",
+        "description": "Praca nad różnymi projektami freelancerskimi z zakresu tworzenia stron internetowych i interfejsów.",
+        "tech": "JavaScript, React, HTML, CSS"
       }
     ]
   },
@@ -60,8 +60,8 @@
   "education": {
     "title": "Edukacja",
     "list": [
-      "Dyplom specjalisty w telekomunikacji / Narodowy Uniwersytet Lotniczy (2006–2011)",
-      "Kurs Fullstack development / GO IT (2019)"
+      "Kurs Fullstack development / GO IT (2019)",
+      "Dyplom specjalisty w telekomunikacji / Narodowy Uniwersytet Lotniczy (2006–2011)"
     ]
   },
   "languages": {

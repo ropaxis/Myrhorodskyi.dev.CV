@@ -13,22 +13,10 @@
     "title": "Professional Experience",
     "list": [
       {
-        "role": "Freelance Frontend Developer",
-        "years": "2019 – 2020",
-        "description": "Worked on various freelance projects focused on website and UI development.",
-        "tech": "JavaScript, React, HTML, CSS"
-      },
-      {
-        "role": "Frontend Developer / Blaster.ai",
-        "years": "2020 – 2021",
-        "description": "Developed UI components and a dynamic cost calculator for wilive.fr. Built client-side tests related to health and fitness assessment.",
-        "tech": "JavaScript, React, Next.js, TypeScript, Storybook"
-      },
-      {
-        "role": "Frontend Developer / Vintage Web Production",
-        "years": "2021 – 2022",
-        "description": "Built modular UI components for oschadbank.ua. Integrated cost calculator for toyota.ua. Integrated store map and customer cabinet for novus.ua.",
-        "tech": "Vue, Nuxt, JavaScript, SCSS, REST API, Jira"
+        "role": "Professional Development / Self Education",
+        "years": "2025 – present",
+        "description": "Studying documentation, following industry trends, and refreshing frontend skills.",
+        "tech": "JavaScript, React, Next.js, TypeScript"
       },
       {
         "role": "Frontend Developer / Armed Forces of Ukraine",
@@ -37,10 +25,22 @@
         "tech": "JavaScript, React, REST API, HTML, CSS"
       },
       {
-        "role": "Professional Development / Self Education",
-        "years": "2025 – present",
-        "description": "Studying documentation, following industry trends, and refreshing frontend skills.",
-        "tech": "JavaScript, React, Next.js, TypeScript"
+        "role": "Frontend Developer / Vintage Web Production",
+        "years": "2021 – 2022",
+        "description": "Built modular UI components for oschadbank.ua. Integrated cost calculator for toyota.ua. Integrated store map and customer cabinet for novus.ua.",
+        "tech": "Vue, Nuxt, JavaScript, SCSS, REST API, Jira"
+      },
+      {
+        "role": "Frontend Developer / Blaster.ai",
+        "years": "2020 – 2021",
+        "description": "Developed UI components and a dynamic cost calculator for wilive.fr. Built client-side tests related to health and fitness assessment.",
+        "tech": "JavaScript, React, Next.js, TypeScript, Storybook"
+      },
+      {
+        "role": "Freelance Frontend Developer",
+        "years": "2019 – 2020",
+        "description": "Worked on various freelance projects focused on website and UI development.",
+        "tech": "JavaScript, React, HTML, CSS"
       }
     ]
   },
@@ -59,8 +59,8 @@
   "education": {
     "title": "Education",
     "list": [
-      "Specialist degree in Telecommunications / National Aviation University (2006–2011)",
-      "Fullstack development course / GO IT (2019)"
+      "Fullstack development course / GO IT (2019)",
+      "Specialist degree in Telecommunications / National Aviation University (2006–2011)"
     ]
   },
   "languages": {

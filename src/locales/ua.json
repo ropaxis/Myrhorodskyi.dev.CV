@@ -13,22 +13,10 @@
     "title": "Професійний досвід",
     "list": [
       {
-        "role": "Фріланс фронтенд-розробник",
-        "years": "2019 – 2020",
-        "description": "Робота над різними фріланс-проєктами зі створення сайтів та UI.",
-        "tech": "JavaScript, React, HTML, CSS"
-      },
-      {
-        "role": "Фронтенд-розробник / Blaster.ai",
-        "years": "2020 – 2021",
-        "description": "Розробка UI-компонентів і динамічного калькулятора вартості для wilive.fr. Створення клієнтських тестів, пов’язаних з оцінкою здоров’я та фітнесу.",
-        "tech": "JavaScript, React, Next.js, TypeScript, Storybook"
-      },
-      {
-        "role": "Фронтенд-розробник / Vintage Web Production",
-        "years": "2021 – 2022",
-        "description": "Розробка модульних UI-компонентів для oschadbank.ua. Інтеграція калькулятора вартості для toyota.ua. Інтеграція карти магазинів і кабінету клієнта для novus.ua.",
-        "tech": "Vue, Nuxt, JavaScript, SCSS, REST API, Jira"
+        "role": "Професійний розвиток / Самоосвіта",
+        "years": "2025 – теперішній час",
+        "description": "Вивчення документації, слідкування за трендами індустрії, оновлення знань з фронтенду.",
+        "tech": "JavaScript, React, Next.js, TypeScript"
       },
       {
         "role": "Фронтенд-розробник / Збройні Сили України",
@@ -37,10 +25,22 @@
         "tech": "JavaScript, React, REST API, HTML, CSS"
       },
       {
-        "role": "Професійний розвиток / Самоосвіта",
-        "years": "2025 – теперішній час",
-        "description": "Вивчення документації, слідкування за трендами індустрії, оновлення знань з фронтенду.",
-        "tech": "JavaScript, React, Next.js, TypeScript"
+        "role": "Фронтенд-розробник / Vintage Web Production",
+        "years": "2021 – 2022",
+        "description": "Розробка модульних UI-компонентів для oschadbank.ua. Інтеграція калькулятора вартості для toyota.ua. Інтеграція карти магазинів і кабінету клієнта для novus.ua.",
+        "tech": "Vue, Nuxt, JavaScript, SCSS, REST API, Jira"
+      },
+      {
+        "role": "Фронтенд-розробник / Blaster.ai",
+        "years": "2020 – 2021",
+        "description": "Розробка UI-компонентів і динамічного калькулятора вартості для wilive.fr. Створення клієнтських тестів, пов’язаних з оцінкою здоров’я та фітнесу.",
+        "tech": "JavaScript, React, Next.js, TypeScript, Storybook"
+      },
+      {
+        "role": "Фріланс фронтенд-розробник",
+        "years": "2019 – 2020",
+        "description": "Робота над різними фріланс-проєктами зі створення сайтів та UI.",
+        "tech": "JavaScript, React, HTML, CSS"
       }
     ]
   },
@@ -59,8 +59,8 @@
   "education": {
     "title": "Освіта",
     "list": [
-      "Диплом спеціаліста з телекомунікацій / Національний авіаційний університет (2006–2011)",
-      "Курс Fullstack development / GO IT (2019)"
+      "Курс Fullstack development / GO IT (2019)",
+      "Диплом спеціаліста з телекомунікацій / Національний авіаційний університет (2006–2011)"
     ]
   },
   "languages": {
