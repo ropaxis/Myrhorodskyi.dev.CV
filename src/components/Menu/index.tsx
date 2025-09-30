@@ -25,6 +25,10 @@ export default function Menu() {
                 <ul className={`menu__list ${isOpen ? 'open' : 'close'}`}>
                     <LanguageSwitcher />
                 </ul>
+                <div className='menu__lang-container'>
+                    <LanguageSwitcher />
+
+                </div>
             </div>
         </div>
     )

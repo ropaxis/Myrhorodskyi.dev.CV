@@ -1,3 +1,5 @@
+@use './mixins' as *;
+
 .menu {
     &__container {
         position: relative;
@@ -20,12 +22,14 @@
     &__button-container {
         margin: auto;
         transform-origin: 50% 50%;
-        // transform: rotateX(25deg) rotateZ(10deg);
-        // animation: spinY 3.6s linear infinite;
         will-change: transform;
 
         &:hover {
             animation: spin 3.6s linear infinite;
+        }
+
+        @include respond(laptop) {
+            display: none;
         }
     }
 
@@ -34,7 +38,7 @@
         height: 50vh;
         position: absolute;
         z-index: 1000;
-        
+
         &.close {
             transform: scale(0);
             top: 0;
@@ -48,6 +52,18 @@
             top: 0;
             left: -200px;
             transition: all 0.3s ease-in-out;
+
+            @include respond(laptop) {
+                display: none;
+            }
+        }
+    }
+
+    &__lang-container {
+        display: none;
+
+        @include respond(laptop) {
+            display: block;
         }
     }
 }
