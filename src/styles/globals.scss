@@ -23,7 +23,10 @@ body {
   background-size: cover;
   background-position: center;
 }
-
+body {
+  position: relative;
+  z-index: -2;
+}
 a {
   color: var(--color-primary);
   text-decoration: none;

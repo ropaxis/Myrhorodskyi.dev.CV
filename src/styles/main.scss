@@ -10,9 +10,10 @@
     }
 
     &__container {
+        position: relative;
         backdrop-filter: blur(22px);
         box-shadow: 20px -20px 50px 0px #1F202133;
-
+        z-index: -1;
 
     }
 

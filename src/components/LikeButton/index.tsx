@@ -30,7 +30,7 @@ export default function Like() {
             <button
                 onClick={liked ? onLikeAlready : () => openModal(<ModalForm />)}
                 className={`like__button ${liked ? 'liked' : ''}`}>
-                    <img src="/heart.png" alt="like button" className='like__icon'/>
+                    <img src="/icons/heart.png" alt="like button" className='like__icon'/>
                 <p className="like__count"> <span className='like__count-text'>{`${text.like['like-button']}:`}</span> {likes.length}</p>
             </button>
         </div>
