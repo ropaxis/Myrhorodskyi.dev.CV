@@ -1,6 +1,6 @@
 
 import { useEffect, useState, useRef } from 'react'
-import LanguageSwitcher from '@/components/LanguageSwitcher';
+import Menu from '@/components/Menu'
 import Like from '@/components/LikeButton';
 import Logotype from '@/components/Logotype'
 import { useLang } from "@/context/LangContext";
@@ -37,8 +37,8 @@ export default function PageHeader() {
                         <Logotype />
                     </div>
                     <div className="header__actions">
-                        <LanguageSwitcher />
                         <Like />
+                        <Menu />
                     </div>
                 </div>
                 <div className={`header__main-info ${isSticky ? 'sticky container' : ''}`} ref={headerRef}>

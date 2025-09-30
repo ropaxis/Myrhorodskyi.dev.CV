@@ -21,11 +21,11 @@ export default function LanguageSwitcher() {
     return (
         <div className="lang-switcher" ref={dropdownRef}>
             <div className="lang-switcher__container">
-                <button onClick={() => openList(!isOpen)} className="lang-switcher__button-earth">
+                {/* <button onClick={() => openList(!isOpen)} className="lang-switcher__button-earth">
                     <div className="lang-switcher__earth-icon">
                         <Earth />
                     </div>
-                </button>
+                </button> */}
                 <ul className={`lang-switcher__list ${isOpen ? 'lang-switcher__list--open' : ''}`}>
                     {languages?.map((lang) => (
                         <li
