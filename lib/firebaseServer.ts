@@ -1,23 +1,17 @@
 import * as admin from "firebase-admin";
+console.log(admin.apps.length);
 
-console.log('start firebase');
 if (!admin.apps.length) {
-  console.log('start firebase');
 
   try {
     const serviceAccountString = process.env.FIREBASE_SERVICE_ACCOUNT;
     if (!serviceAccountString) {
       throw new Error("FIREBASE_SERVICE_ACCOUNT environment variable not set.");
     }
-
     const serviceAccount = JSON.parse(serviceAccountString);
-
     admin.initializeApp({
       credential: admin.credential.cert(serviceAccount),
     });
-
-    console.log("Firebase initialized successfully from service account JSON.");
-
   } catch (error: any) {
     console.error("Firebase initialization failed:", error);
   }

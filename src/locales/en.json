@@ -46,8 +46,26 @@
   },
   "skills": {
     "title": "Technical Skills",
-    "main": ["JavaScript", "TypeScript", "React", "Next.js", "Vue", "Nuxt", "HTML", "CSS", "REST API", "Git"],
-    "secondary": ["Node.js", "Express", "MongoDB", "Python", "Jira", "Figma"]
+    "main": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Vue",
+      "Nuxt",
+      "HTML",
+      "CSS",
+      "REST API",
+      "Git"
+    ],
+    "secondary": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Python",
+      "Jira",
+      "Figma"
+    ]
   },
   "achievements": {
     "title": "Key Achievements",
@@ -73,7 +91,12 @@
   },
   "interests": {
     "title": "Interests",
-    "list": ["Codewars", "Outdoor fitness (calisthenics)", "Classical and fantasy literature", "Music"]
+    "list": [
+      "Codewars",
+      "Outdoor fitness (calisthenics)",
+      "Classical and fantasy literature",
+      "Music"
+    ]
   },
   "like": {
     "like-button": "Like",
@@ -82,5 +105,16 @@
     "like-cancel": "Cancel",
     "like-name": "Your name",
     "like-warning": "You have already liked this!"
+  },
+  "auth": {
+    "login": "login",
+    "registration": "registration",
+    "logout": "logout",
+    "name": "name",
+    "password": "password",
+    "email": "email",
+    "login-btn": "log-in",
+    "registration-btn": "register",
+    "cancel": "cancel"
   }
 }

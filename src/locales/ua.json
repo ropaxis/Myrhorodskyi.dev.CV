@@ -82,5 +82,18 @@
     "like-cancel": "Скасувати",
     "like-name": "Ваше ім’я",
     "like-warning": "Ви вже вподобали це!"
+  },
+  
+  "auth": {
+    "login": "вхід",
+    "registration": "реєстрація",
+    "logout": "вихід",
+    "name": "ім'я",
+    "password": "пароль",
+    "email": "емейл",
+    "login-btn": "вхід",
+    "registration-btn": "зареєструйся",
+    "cancel": "cancel"
   }
+
 }

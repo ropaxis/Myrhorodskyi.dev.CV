@@ -83,5 +83,13 @@
     "like-cancel": "Anuluj",
     "like-name": "Twoje imię",
     "like-warning": "Już to polubiłeś!"
+  },
+  "auth": {
+    "login": "login",
+    "registration": "rejestracja",
+    "logout": "wyloguj się",
+    "login-btn": "zaloguj się",
+    "registration-btn": "zarejestruj się",
+    "cancel": "anuluj"
   }
 }

@@ -1,4 +1,5 @@
 import LanguageSwitcher from '@/components/LanguageSwitcher';
+import Auth from '@/components/Auth'
 import { useState, useEffect, useRef } from 'react'
 
 export default function Menu() {
@@ -22,12 +23,13 @@ export default function Menu() {
                         <img src="/icons/wheel.png" alt="wheel menu" />
                     </button>
                 </div>
-                <ul className={`menu__list ${isOpen ? 'open' : 'close'}`}>
+                <div className={`menu__list ${isOpen ? 'open' : 'close'}`}>
                     <LanguageSwitcher />
-                </ul>
+                    <Auth />
+                </div>
                 <div className='menu__lang-container'>
                     <LanguageSwitcher />
-
+                    <Auth />
                 </div>
             </div>
         </div>
