@@ -5,6 +5,7 @@ import { LikesProvider } from "@/context/LikesContext";
 import localFont from 'next/font/local'
 import "normalize.css"
 import "@/styles/globals.scss";
+import { AuthProvider } from "@/context/AuthContext";
 
 
 export const metadata: Metadata = {
@@ -37,17 +38,20 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
     <html lang="en | pl | ua">
       <body
         className={myFont.className}
       >
         <LangProvider>
-          <LikesProvider>
-          <ModalProvider>
-            {children}
-          </ModalProvider>
-          </LikesProvider>
+          <AuthProvider>
+            <LikesProvider>
+              <ModalProvider>
+                {children}
+              </ModalProvider>
+            </LikesProvider>
+          </AuthProvider>
         </LangProvider>
       </body>
     </html>

@@ -1,4 +1,3 @@
-
 {
   "title": "Frontend Developer",
   "name": "Roman Myrhorodskyi",
@@ -47,8 +46,26 @@
   },
   "skills": {
     "title": "Umiejętności techniczne",
-    "main": ["JavaScript", "TypeScript", "React", "Next.js", "Vue", "Nuxt", "HTML", "CSS", "REST API", "Git"],
-    "secondary": ["Node.js", "Express", "MongoDB", "Python", "Jira", "Figma"]
+    "main": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Vue",
+      "Nuxt",
+      "HTML",
+      "CSS",
+      "REST API",
+      "Git"
+    ],
+    "secondary": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Python",
+      "Jira",
+      "Figma"
+    ]
   },
   "achievements": {
     "title": "Najważniejsze osiągnięcia",
@@ -74,7 +91,12 @@
   },
   "interests": {
     "title": "Zainteresowania",
-    "list": ["Codewars", "Treningi na świeżym powietrzu (kalistenika)", "Literatura klasyczna i fantastyczna", "Muzyka"]
+    "list": [
+      "Codewars",
+      "Treningi na świeżym powietrzu (kalistenika)",
+      "Literatura klasyczna i fantastyczna",
+      "Muzyka"
+    ]
   },
   "like": {
     "like-button": "Lubię to",
@@ -88,8 +110,12 @@
     "login": "login",
     "registration": "rejestracja",
     "logout": "wyloguj się",
+    "name": "imię",
+    "password": "hasło",
+    "email": "e-mail",
     "login-btn": "zaloguj się",
     "registration-btn": "zarejestruj się",
-    "cancel": "anuluj"
+    "cancel": "anuluj",
+    "need-reg": "Musisz się tu zarejestrować"
   }
 }

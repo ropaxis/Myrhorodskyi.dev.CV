@@ -115,6 +115,7 @@
     "email": "email",
     "login-btn": "log-in",
     "registration-btn": "register",
-    "cancel": "cancel"
+    "cancel": "cancel",
+    "need-reg": "You must register here"
   }
 }

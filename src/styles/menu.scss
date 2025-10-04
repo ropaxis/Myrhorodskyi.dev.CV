@@ -64,7 +64,9 @@
         display: none;
 
         @include respond(laptop) {
-            display: block;
+            display: flex;
+            gap: 16px;
+
         }
     }
 }

@@ -93,7 +93,8 @@
     "email": "емейл",
     "login-btn": "вхід",
     "registration-btn": "зареєструйся",
-    "cancel": "cancel"
+    "cancel": "cancel",
+    "need-reg": "Ви повинні зареєструватись тут"
   }
 
 }

@@ -4,7 +4,8 @@ import Menu from '@/components/Menu'
 import Like from '@/components/LikeButton';
 import Logotype from '@/components/Logotype'
 import { useLang } from "@/context/LangContext";
-import {contacts} from '@/data/contacts';
+import { contacts } from '@/data/contacts';
+import { useAuth } from '@/context/AuthContext'
 
 export default function PageHeader() {
     const { text } = useLang();
@@ -12,6 +13,8 @@ export default function PageHeader() {
     const [isOpen, setIsOpen] = useState(false);
     const [padding, setPadding] = useState(0);
     const headerRef = useRef<HTMLDivElement>(null);
+    const { user } = useAuth();
+
 
     useEffect(() => {
         const handleScroll = () => {
@@ -65,7 +68,9 @@ export default function PageHeader() {
                                 <li>
                                     <p>{text.contact.phone}:
                                     </p>
-                                    <a href={`tel:${contacts.phone}`}>{contacts.phone}</a>
+                                    {user ? <>
+                                        <a href={`tel:${contacts.phone}`}>{contacts.phone}</a>
+                                    </> : <>{text.auth['need-reg']}</>}
                                 </li>
                                 <li>
                                     <p>{text.contact.email}:
@@ -86,7 +91,6 @@ export default function PageHeader() {
                         </div>}
                     </div>
                 </div>
-
             </div>
         </header>
     )
