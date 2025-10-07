@@ -26,6 +26,7 @@ export default function Menu() {
                 <div className={`menu__list ${isOpen ? 'open' : 'close'}`}>
                     <LanguageSwitcher />
                     <Auth />
+                    <button className='menu__button-close' onClick={()=>openList(false)}>X</button>
                 </div>
                 <div className='menu__lang-container'>
                     <LanguageSwitcher />

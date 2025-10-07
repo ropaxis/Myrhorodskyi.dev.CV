@@ -33,25 +33,31 @@
         }
     }
 
-    &__list {
-        padding: 16px;
-        min-width: 300px;
-        height: 50vh;
+    &__button-close {
         position: absolute;
+        top: 16px;
+        right: 16px
+    }
+    &__list {
+        position: fixed;
         z-index: 1000;
-
+        width: 100vw;
+        height: 0vh;
+        top: 0;
+        left: -16px;
+        overflow: hidden;
         &.close {
-            transform: scale(0);
             top: 0;
             left: 0;
             transition: all 0.3s ease-in-out;
         }
 
         &.open {
-            transform: scale(1);
+            padding: 16px;
+            min-width: 300px;
+            height: 100vh;
             background-color: rgb(255, 255, 255, 0.5);
             top: 0;
-            left: -200px;
             transition: all 0.3s ease-in-out;
 
             @include respond(laptop) {

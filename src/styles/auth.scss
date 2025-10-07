@@ -1,5 +1,8 @@
+@use './variables.scss' as v;
+
 .auth {
     padding: 16px 0;
+    color: v.$color-text-bl;
 
     &__container {
         display: flex;
