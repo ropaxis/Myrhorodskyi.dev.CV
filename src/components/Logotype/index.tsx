@@ -1,3 +1,4 @@
+import React from "react";
 interface LogoProps {
     oneLetter?: boolean;
      className?: string;

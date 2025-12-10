@@ -1,100 +1,121 @@
 {
-  "title": "Фронтенд розробник",
-  "name": "Роман Миргородський",
+  "title": "Frontend Developer",
+  "name": "Roman Myrhorodskyi",
   "contact": {
     "description": "Контакти",
-    "phone": "Телефон",
-    "email": "Ел. пошта",
-    "location": "Локація",
-    "linkedin": "LinkedIn"
+    "phone": "+48 575 916 086",
+    "email": "Myrhorodskyi.r@gmail.com",
+    "location": "Польща (Краків) / готовий до релокації",
+    "linkedin": "www.linkedin.com/in/roman-myrhorodskyi/",
+    "website": "https://myrhorodskyi-dev-cv.vercel.app/"
   },
-  "summary": "Фронтенд-розробник із понад 4 роками комерційного досвіду у створенні адаптивних та зручних вебзастосунків із використанням React, Vue та TypeScript. Доведена здатність створювати масштабовані UI-компоненти, інтегрувати REST API та ефективно співпрацювати в Agile-командах.",
+  "summary": "Frontend Developer із 5-річним комерційним досвідом у розробці адаптивних і зручних для користувача вебзастосунків з використанням React, Vue та TypeScript. Має сильні навички у створенні масштабованих UI-компонентів, інтеграції з REST API та ефективній роботі в Agile-командах. Спеціалізується на написанні продуктивного, підтримуваного коду та сучасних динамічних інтерфейсів.",
   "experience": {
-    "title": "Професійний досвід",
+    "title": "Досвід роботи",
     "list": [
       {
-        "role": "Професійний розвиток / Самоосвіта",
-        "years": "2025 – теперішній час",
-        "description": "Вивчення документації, слідкування за трендами індустрії, оновлення знань з фронтенду.",
-        "tech": "JavaScript, React, Next.js, TypeScript"
+        "role": "Frontend Developer / Збройні сили України",
+        "years": "03/2024 – 05/2025",
+        "description": "Розробка безпечного вебзастосунку для Міністерства оборони України. Реалізація UI-функціоналу згідно з технічними вимогами, інтеграція фронтенду з внутрішніми API, створення багаторазових компонентів React.",
+        "tech": "JavaScript, React, Redux, REST API"
       },
       {
-        "role": "Фронтенд-розробник / Збройні Сили України",
-        "years": "2024 – 2025",
-        "description": "Розробка захищеного вебзастосунку для Міністерства оборони України. Реалізація UI-функціоналу, інтеграція внутрішніх API, написання багаторазових React-компонентів.",
-        "tech": "JavaScript, React, REST API, HTML, CSS"
+        "role": "Frontend Developer / Vintage Web Production",
+        "years": "07/2021 – 12/2022",
+        "description": "Створення модульних UI-компонентів для oschadbank.ua. Інтеграція калькулятора вартості для toyota.ua. Реалізація інтерактивної карти (Google Maps API), кабінету користувача та авторизації для novus.ua.",
+        "tech": "Vue.js, Nuxt, Vuex, JavaScript, SCSS, REST API, Jira, Git, Google Maps API",
+        "note": "Рекомендаційний лист від Vintage Web Production доступний за запитом."
       },
       {
-        "role": "Фронтенд-розробник / Vintage Web Production",
-        "years": "2021 – 2022",
-        "description": "Розробка модульних UI-компонентів для oschadbank.ua. Інтеграція калькулятора вартості для toyota.ua. Інтеграція карти магазинів і кабінету клієнта для novus.ua.",
-        "tech": "Vue, Nuxt, JavaScript, SCSS, REST API, Jira"
+        "role": "Frontend Developer / Blaster.ai",
+        "years": "04/2021 – 07/2021",
+        "description": "Розробка UI-компонентів та динамічного калькулятора вартості для wilive.fr. Створення клієнтських тестів, повʼязаних з оцінкою здоровʼя та фізичної форми.",
+        "tech": "JavaScript, React, Next.js, TypeScript, Three.js"
       },
       {
-        "role": "Фронтенд-розробник / Blaster.ai",
-        "years": "2020 – 2021",
-        "description": "Розробка UI-компонентів і динамічного калькулятора вартості для wilive.fr. Створення клієнтських тестів, пов’язаних з оцінкою здоров’я та фітнесу.",
+        "role": "Frontend Developer / Blaster.ai",
+        "years": "09/2019 – 03/2021",
+        "description": "Створення UI-компонентів і динамічного калькулятора вартості для wilive.fr. Розробка клієнтських тестів для оцінки здоровʼя та фітнесу.",
         "tech": "JavaScript, React, Next.js, TypeScript, Storybook"
-      },
-      {
-        "role": "Фріланс фронтенд-розробник",
-        "years": "2019 – 2020",
-        "description": "Робота над різними фріланс-проєктами зі створення сайтів та UI.",
-        "tech": "JavaScript, React, HTML, CSS"
       }
     ]
   },
   "skills": {
     "title": "Технічні навички",
-    "main": ["JavaScript", "TypeScript", "React", "Next.js", "Vue", "Nuxt", "HTML", "CSS", "REST API", "Git"],
-    "secondary": ["Node.js", "Express", "MongoDB", "Python", "Jira", "Figma"]
-  },
-  "achievements": {
-    "title": "Ключові досягнення",
-    "list": [
-      "Виконував завдання на 20–30% швидше за план, що підвищувало ефективність спринтів та давало час на покращення коду.",
-      "Скоротив час виправлення багів на 25% завдяки ефективному дебагу та чіткій комунікації з QA."
+    "main": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Redux",
+      "Vue",
+      "Nuxt",
+      "Vuex",
+      "HTML",
+      "CSS",
+      "REST API",
+      "Git",
+      "Tailwind"
+    ],
+    "secondary": [
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Firebase",
+      "Python",
+      "Jira",
+      "Figma"
     ]
   },
-  "education": {
-    "title": "Освіта",
+  "achievements": {
+    "title": "Основні досягнення",
     "list": [
-      "Курс Fullstack development / GO IT (2019)",
-      "Диплом спеціаліста з телекомунікацій / Національний авіаційний університет (2006–2011)"
+      "Виконував задачі на 20–30% швидше за план, що підвищувало ефективність спринтів і дозволяло присвятити час покращенню коду.",
+      "Скоротив час усунення помилок на 25% завдяки якісному дебагу та чіткій комунікації з QA, що пришвидшило релізні цикли."
     ]
   },
   "languages": {
     "title": "Мови",
     "list": [
-      "Англійська – B1 (середній рівень, можу проходити технічні співбесіди)",
+      "Англійська – B2 (Upper Intermediate, можу проходити технічні співбесіди)",
       "Польська – A2 (базовий рівень, у процесі навчання)",
       "Українська – рідна"
     ]
   },
+  "education": {
+    "title": "Освіта",
+    "list": [
+      "Курс Fullstack Development – GO IT (2019)",
+      "Ступінь спеціаліста з телекомунікацій – Національний авіаційний університет (2006–2011)"
+    ]
+  },
   "interests": {
     "title": "Інтереси",
-    "list": ["Codewars", "Фітнес на свіжому повітрі (калистеніка)", "Класична та фантастична література", "Музика"]
+    "list": [
+      "Codewars",
+      "Калістеніка",
+      "Музика",
+      "Література"
+    ]
   },
   "like": {
     "like-button": "Подобається",
-    "description": "Залиште вподобайку!",
-    "like-accept": "Надіслати",
+    "description": "Залиште лайк!",
+    "like-accept": "Підтвердити",
     "like-cancel": "Скасувати",
     "like-name": "Ваше ім’я",
-    "like-warning": "Ви вже вподобали це!"
+    "like-warning": "Ви вже це вподобали!"
   },
-  
   "auth": {
     "login": "вхід",
     "registration": "реєстрація",
-    "logout": "вихід",
-    "name": "ім'я",
+    "logout": "вийти",
+    "name": "ім’я",
     "password": "пароль",
-    "email": "емейл",
-    "login-btn": "вхід",
-    "registration-btn": "зареєструйся",
-    "cancel": "cancel",
-    "need-reg": "Ви повинні зареєструватись тут"
+    "email": "email",
+    "login-btn": "увійти",
+    "registration-btn": "зареєструватися",
+    "cancel": "скасувати",
+    "need-reg": "Ви повинні зареєструватися тут"
   }
-
 }

@@ -3,44 +3,40 @@
   "name": "Roman Myrhorodskyi",
   "contact": {
     "description": "Contact",
-    "phone": "Phone",
-    "email": "Email",
-    "location": "Location",
-    "linkedin": "LinkedIn"
+    "phone": "+48 575 916 086",
+    "email": "Myrhorodskyi.r@gmail.com",
+    "location": "Poland (Krakow) / ready to relocate",
+    "linkedin": "www.linkedin.com/in/roman-myrhorodskyi/",
+    "website": "https://myrhorodskyi-dev-cv.vercel.app/"
   },
-  "summary": "Frontend Developer with 4+ years of commercial experience building responsive and user-friendly web applications using React, Vue, and TypeScript. Proven ability to deliver scalable UI components, integrate with REST APIs, and collaborate in Agile teams.",
+  "summary": "Frontend Developer with 5 years of commercial experience building responsive, user-friendly web applications using React, Vue, and TypeScript. Strong track record of delivering scalable UI components, integrating with REST APIs, and collaborating effectively in Agile teams. Skilled in creating high-performance, maintainable code and developing dynamic interfaces aligned with modern frontend architecture.",
   "experience": {
     "title": "Professional Experience",
     "list": [
       {
-        "role": "Professional Development / Self Education",
-        "years": "2025 – present",
-        "description": "Studying documentation, following industry trends, and refreshing frontend skills.",
-        "tech": "JavaScript, React, Next.js, TypeScript"
-      },
-      {
         "role": "Frontend Developer / Armed Forces of Ukraine",
-        "years": "2024 – 2025",
-        "description": "Developed a secure web application for the Ministry of Defense of Ukraine. Implemented UI functionality, integrated internal APIs, and wrote reusable React components.",
-        "tech": "JavaScript, React, REST API, HTML, CSS"
+        "years": "03/2024 – 05/2025",
+        "description": "Developed a secure web application for the Ministry of Defense of Ukraine. Implemented UI functionality based on technical specifications, integrated the frontend with internal APIs, and built reusable, maintainable React components.",
+        "tech": "JavaScript, React, Redux, REST API"
       },
       {
         "role": "Frontend Developer / Vintage Web Production",
-        "years": "2021 – 2022",
-        "description": "Built modular UI components for oschadbank.ua. Integrated cost calculator for toyota.ua. Integrated store map and customer cabinet for novus.ua.",
-        "tech": "Vue, Nuxt, JavaScript, SCSS, REST API, Jira"
+        "years": "07/2021 – 12/2022",
+        "description": "Built modular UI components for oschadbank.ua. Integrated cost calculator for toyota.ua. Added interactive store map using Google Maps API, user cabinet, and authorization for novus.ua.",
+        "tech": "Vue.js, Nuxt, Vuex, JavaScript, SCSS, REST API, Jira, Git, Google Maps API",
+        "note": "A recommendation letter from Vintage Web Production is available upon request."
       },
       {
         "role": "Frontend Developer / Blaster.ai",
-        "years": "2020 – 2021",
+        "years": "04/2021 – 07/2021",
         "description": "Developed UI components and a dynamic cost calculator for wilive.fr. Built client-side tests related to health and fitness assessment.",
-        "tech": "JavaScript, React, Next.js, TypeScript, Storybook"
+        "tech": "JavaScript, React, Next.js, TypeScript, Three.js"
       },
       {
-        "role": "Freelance Frontend Developer",
-        "years": "2019 – 2020",
-        "description": "Worked on various freelance projects focused on website and UI development.",
-        "tech": "JavaScript, React, HTML, CSS"
+        "role": "Frontend Developer / Blaster.ai",
+        "years": "09/2019 – 03/2021",
+        "description": "Created UI components and dynamic cost calculator for wilive.fr. Developed client-side tests for health and fitness evaluation.",
+        "tech": "JavaScript, React, Next.js, TypeScript, Storybook"
       }
     ]
   },
@@ -51,17 +47,21 @@
       "TypeScript",
       "React",
       "Next.js",
+      "Redux",
       "Vue",
       "Nuxt",
+      "Vuex",
       "HTML",
       "CSS",
       "REST API",
-      "Git"
+      "Git",
+      "Tailwind"
     ],
     "secondary": [
       "Node.js",
       "Express",
       "MongoDB",
+      "Firebase",
       "Python",
       "Jira",
       "Figma"
@@ -71,31 +71,31 @@
     "title": "Key Achievements",
     "list": [
       "Completed development tasks 20–30% faster than planned, improving sprint efficiency and freeing time for code improvements.",
-      "Reduced bug resolution time by 25% through effective debugging and clear communication with QA."
-    ]
-  },
-  "education": {
-    "title": "Education",
-    "list": [
-      "Fullstack development course / GO IT (2019)",
-      "Specialist degree in Telecommunications / National Aviation University (2006–2011)"
+      "Reduced bug resolution time by 25% through effective debugging and clear communication with QA, accelerating release cycles."
     ]
   },
   "languages": {
     "title": "Languages",
     "list": [
-      "English – B1 (Intermediate, can pass technical interviews)",
+      "English – B2 (Upper Intermediate, can pass technical interviews)",
       "Polish – A2 (Elementary, learning)",
       "Ukrainian – Native"
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "list": [
+      "Fullstack development course – GO IT (2019)",
+      "Specialist degree in Telecommunications – National Aviation University (2006–2011)"
     ]
   },
   "interests": {
     "title": "Interests",
     "list": [
       "Codewars",
-      "Outdoor fitness (calisthenics)",
-      "Classical and fantasy literature",
-      "Music"
+      "Calisthenics",
+      "Music",
+      "Literature"
     ]
   },
   "like": {
